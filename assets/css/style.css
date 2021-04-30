@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   padding: 0 15px;
   background: #040b14;
+  opacity: 0.9;
   overflow-y: auto;
 }
 
@@ -435,27 +436,6 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #149ddd;
-}
-
-.tex sub, .latex sub, .latex sup {
-  text-transform: uppercase;
-}
-
-.tex sub, .latex sub {
-  vertical-align: -0.5ex;
-  margin-left: -0.1667em;
-  margin-right: -0.125em;
-}
-
-.tex, .latex, .tex sub, .latex sub {
-  font-size: 1em;
-}
-
-.latex sup {
-  font-size: 0.85em;
-  vertical-align: 0.15em;
-  margin-left: -0.36em;
-  margin-right: -0.15em;
 }
 
 /*--------------------------------------------------------------
@@ -1073,6 +1053,7 @@ section {
   width: 300px;
   z-index: 9999;
   background: #040b14;
+  opacity: 0.5;
 }
 
 #footer .copyright {
