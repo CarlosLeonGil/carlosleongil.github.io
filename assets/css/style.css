@@ -330,9 +330,10 @@ section {
 }
 
 .about .content ul li {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
+  padding: 0px 1em 0 2em;
 }
 
 .about .content ul strong {
